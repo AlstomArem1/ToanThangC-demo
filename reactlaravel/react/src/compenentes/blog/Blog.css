@@ -1,0 +1,278 @@
+.blog12 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.blog12 .blog12-container {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+@media (max-width: 1050px) {
+    .blog12 .blog12-container{
+        width: 100%;
+    }
+}
+
+.blog12 .blog12-container .blog12-zeem1 .zeem1-start {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.blog12 .blog12-container .blog12-zeem1 .zeem1-end {
+    display: flex;
+    border: 1px solid #000;
+    background: #e6e7e1;
+    width: 100%;
+}
+@media  (max-width: 759px){
+    .blog12 .blog12-container .blog12-zeem1 .zeem1-end{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.blog12 .blog12-container .blog12-zeem1 .zeem1-end .zeem1-imgl {
+    width: 40%;
+    height: 400px;
+    padding: 50px 30px;
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem1 .zeem1-end .zeem1-imgl {
+        width: 100%; 
+    }
+}
+.blog12 .blog12-container .blog12-zeem1 .zeem1-end .zeem1-imgl img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog12 .blog12-container .blog12-zeem1 .zeem1-end .zeem1-we {
+    text-align: center;
+    padding: 50px 50px;
+    line-height: 30px;
+    width: 60%;
+
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem1 .zeem1-end .zeem1-we {
+        width: 100%; 
+    }
+}
+.blog12 .blog12-container .blog12-zeem1 .zeem1-end .zeem1-we .we-btn {
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    background: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.blog12 .blog12-container .blog12-zeem1 .zeem1-end .zeem1-we .we-btn:hover {
+    background: #e7d4bd;
+
+}
+
+.blog12 .blog12-container .blog12-zeem2 {
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+}
+
+.blog12 .blog12-container .blog12-zeem2 .zeem2-start h1 {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.blog12 .blog12-container .blog12-zeem2 .zeem2-end{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem2 .zeem2-end {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.blog12 .blog12-container .blog12-zeem2 .zeem2-end .endls-blog {
+   
+}
+
+.blog12 .blog12-container .blog12-zeem2 .zeem2-end .endls-blog .end-imgs{
+    width: 90%;
+    margin: 20px 20px;
+    height: 250px;
+    
+}
+
+.blog12 .blog12-container .blog12-zeem2 .zeem2-end .endls-blog .end-imgs img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog12 .blog12-container .blog12-zeem2 .zeem2-end .endls-blog .end-tra {
+    padding: 5px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    position: relative;
+    bottom: 30%;
+    left: 30%;
+    border: none;
+    transition: 0.3s;
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem2 .zeem2-end .endls-blog .end-tra {
+        position: relative;
+        bottom: 25%;
+        left: 40%;
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+}
+
+.blog12 .blog12-container .blog12-zeem2 .zeem2-end .endls-blog .end-tra:hover {
+    background: #e7d4bd;
+}
+
+.blog12 .blog12-container .blog12-zeem3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem3{
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 100%;
+    }
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-start {
+
+    line-height: 30px;
+    width: 70%;
+    height: 100%;
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem3 .zeem3-start{
+        width: 100%;
+    }
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-start .z3-st1 small{
+    color: #f0932b;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-start .z3-st1 h3{
+    font-weight: 600;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-start .z3-imgls {
+    width: 100%;
+    height: 100%;
+    padding: 10px 5px;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-start .z3-imgls img {
+    width: 100%;
+    height: 100%;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-start .z3-newspaper {
+    text-align: start;
+    padding: 10px 5px;
+}
+
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end{
+    border-left: 1px solid #000;
+    width: 30%;
+    height: 100%;
+    
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem3 .zeem3-end{
+        width: 100%;
+    }
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po1 h4{
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po2 .z3-be1{
+    display: flex;
+    padding: 10px 0px;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po2 .z3-be1 .be1-imgs{
+    height: 110px;
+    width: 40%;
+    margin: 5px 10px;
+    overflow: hidden;
+    background: #f0942bd0;
+   
+}
+
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po2 .z3-be1 .be1-imgs img{ 
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;  
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po2 .z3-be1 .be1-imgs img:hover{ 
+   transform: translateY(-10px);
+   
+   
+    
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po2 .z3-be1 .be1-blog{
+    text-align: start;
+    padding: 0px 10px;
+    font-size: 12px;
+    width: 60%;
+}
+
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po2 .z3-be1 .be1-blog small{
+  color: #f0932b;
+  font-size: 10px;
+}
+@media (max-width: 759px) {
+    .blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po2 .z3-be1 .be1-blog small{
+      font-size: 15px;
+    }
+   
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po3 .z3-bricon{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po3  .z3-bricon span{
+    font-size: 25px;
+    margin: 0px 5px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    width: 40px;
+    height: 40px;
+}
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end .z3-po3  .z3-bricon span:hover{
+    background: #e7d4bd;
+}
+
+.blog12 .blog12-container .blog12-zeem3 .zeem3-end  .z3-po3 h4{
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 20px 10px;
+}
